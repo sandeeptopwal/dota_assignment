@@ -14,7 +14,7 @@
 
 **Steps to generate build and deploy** -
 
- Take the checkout of this repository. Go to this project directory via command line and run following command -
+ Take the clone of this repository or download as a zip file. After cloning/extracting , go to this project directory via command line and run following command -
 	
  - mvn install - to download the project dependecies and generate build.
  
