@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /dota/
+
+feign:
+  okhttp:
+    enabled: true
+  client:
+    config:
+      default:
+        loggerLevel: full
+
+
+open-dota-api:
+  url: https://api.opendota.com/api/
